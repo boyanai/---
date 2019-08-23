@@ -1,0 +1,195 @@
+.footer{
+    background-color: #F7F7F7;
+    height: 600px;
+}
+.footer .fservice{
+    height: 85px;
+    font-size: 12px;
+    color: #333;
+    border-bottom: 1px solid #D3D3D3;
+}
+.footer .fservice li{
+    margin: 35px 15px 15px 0px;
+}
+.footer .fservice ul li{
+    width:150px;
+    line-height: 28px;
+    float: left;
+}
+.footer .fservice ul li .icon{
+    margin-right:5px;
+}
+.icon-fs1{
+    background-position: 0px -56px;
+}
+.icon-fs2{
+    background-position: -28px -56px;
+}
+.icon-fs3{
+    background-position: -56px -56px;
+}
+.icon-fs4{
+    background-position: -84px -56px;
+}
+.icon-fs5{
+    background-position: -112px -56px;
+}
+.icon-fs6{
+    background-position: -140px -56px;
+}
+.icon-fs7{
+    background-position: -168px -56px;
+}
+/* 空的 */
+.footer .h6{
+    height: 60px;
+}
+.footer .fkehu{
+    width: 350px;
+    height: 240px;
+    margin-left: 20px;
+    border-right: 1px solid #5a5a5a;
+    float: left;
+}
+.footer .fkehu dl{
+    width: 100px;
+    float: left;
+}
+.footer .fkehu dl dt{
+    height: 35px;
+    font-size: 14px;
+    color: #333;
+}
+.footer .fkehu dl dd{
+    line-height: 22px;
+    font-size: 12px;
+    color: #999;
+}
+.footer .fkehu dl dd a{
+    color: #999999;
+}
+.footer .fkehu .w150{
+    width: 150px;
+}
+.clear{
+    clear: both;
+    display: inline-block;
+    height: 1px;
+    width: 100%
+}
+.footer .ftongcheng{
+    width: 270px;
+    height: 240px;
+    margin-left: 40px;
+    border-right: 1px solid #5a5a5a;
+    float: left;
+}
+.footer  h5{
+    height: 55px;
+    font-size: 20px;
+    color: #333;
+}
+.footer .ftongcheng ul{
+    width: 250px;
+}
+.footer .ftongcheng ul li{
+    width: 80px;
+    line-height: 30px;
+    font-size: 13px;
+    float: left;
+}
+.footer .ftongcheng ul li a{
+    color: #777;
+}
+.footer .flianxi{
+    width: 270px;
+    margin-left: 40px;
+    float: left;
+}
+.footer .flianxi .hotline{
+    height: 40px;
+    font-size: 14px;
+    color: #777;
+}
+.footer .flianxi .hotline span{
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+}
+.footer .flianxi .cservice{
+    height:45px;
+}
+.footer .flianxi .cservice img{
+    width: 114px;
+    height: 33px;
+}
+.footer .flianxi .worktime{
+    font-size: 12px;
+    color: #777;
+}
+.footer .fqrcode{
+    width: 150px;
+    float: left;
+}
+.fqrcode .note{
+    line-height: 25px;
+    font-size: 12px;
+    color: #333;
+}
+.fqrcode .img{
+    text-align: center;
+    height: 130px;
+    margin-top: 10px;
+}
+.fqrcode .img img{
+    width: 128px;
+    height: 130px;
+    margin: 0 5px;
+}
+.fqrcode .gzh{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+/* 三 */
+.footer .fcopyright p{
+    margin-top: 50px;
+}
+.fcopyright p{
+    line-height: 24px;
+    font-size: 12px;
+    text-align: center;
+    color: #999;
+}
+.fcopyright ul{
+    width: 330px;
+    margin: 20px auto;
+}
+.fcopyright ul li{
+    width: 83px;
+    height: 30px;
+    margin: 0 13px;
+    float: left;
+}
+.fcopyright ul li a{
+    width: 83px;
+    height: 30px;
+    line-height: 90px;
+    display: block;
+    overflow: hidden;
+    background-image: url(../static/img/copyright.png);
+    background-repeat: no-repeat;  
+}
+.fcopyright ul li.img1 a{
+    background-position: 0 0;
+}
+.fcopyright ul li.img2 a{
+    background-position: 0 -30px;
+}
+.fcopyright ul li.img3 a{
+    background-position: 0 -60px;
+}
+
+

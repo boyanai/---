@@ -1,0 +1,131 @@
+.full-login{
+    height: 658px;
+    background: url("../static/img/login_bg.jpg") no-repeat center;
+}
+.pos-rel{
+    position: relative;
+}
+.login-box-outer{
+    position: absolute;
+    left: 760px;
+    top:60px;
+    width: 445px;
+    height: 505px;
+    border: 8px solid rgba(255, 255, 255, 0.3);
+}
+.login-box{
+    width: 445px;
+    height: 505px;
+    background-color: #fff;
+}
+.login-box .box-bar{
+    padding-top: 30px;
+    margin: 0 60px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.login-box .box-bar ul{
+    height: 55px;
+    padding: 0 60px;
+}
+.login-box .box-bar ul li {
+    width: 50%;
+    height: 55px;
+    line-height: 55px;
+    font-size: 14px;
+    color: #777;
+    float: left;
+    text-align: center;
+}
+.login-box .box-bar ul li.active{
+    border-bottom: 3px solid red; 
+}
+.login-box .box-bar ul li.active a{
+    color: #ff2f2f;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* 请输入手机号 */
+.loginfrm{
+    margin:0 60px;
+}
+.login-type{
+    line-height: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+.login-type a{
+    font-size: 14px;
+    color: #ff2f2f;
+    margin-right: 10px;
+}
+.loginfrm-body,.loginfrm-group{
+    margin: 20px 0;
+    left: 50px;
+}
+.input-big{
+    width: 290px;
+    height: 48px;
+    font-size: 14px;
+    color: #878787;
+    vertical-align: middle;
+    padding: 0px 15px;
+    outline: none;
+    border:1px solid #E2E2E2;
+    border-image: initial;
+}
+.input-big:hover{
+    border:1px solid #ff2f2f;
+}
+/* 登录 */
+.loginfrm-loading{
+    min-height: 50px;
+    line-height: 25px;
+    overflow:visible;
+    font-size: 14px;
+    color: #f60;
+    margin-bottom: 10px;
+}
+.button-big{
+    width: 320px;
+    padding: 12px 0;
+    display: inline-block;
+    font-size: 18px;
+    color: #fefefe;
+    text-align: center;
+    background-color: #ff2f2f;
+    border: 1px solid #ff2f2f;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    vertical-align: middle; 
+}
+/* 下面支付方式 */
+.a-oauth{
+    margin-top: 30px;
+    font-size: 14px;
+    color: #dcdcdc;
+    text-align: center;
+}
+.a-oauth a{
+    color: #666;
+    margin:0 5px;
+}
+.a-oauth .red{
+    color: red;
+}
+
+
+
+/* 页未 */
+.tc{
+    text-align: center;
+}
+.ziti .note{
+    line-height: 24px;
+    font-size:12px;
+    text-align: center;
+    color:#999;
+    margin-bottom: 30px;
+}

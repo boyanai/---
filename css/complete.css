@@ -1,0 +1,127 @@
+*{
+    margin: 0; padding: 0;
+    font:14px "微软雅黑";
+}
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+a{
+    text-decoration-line: none;
+    color: #333;
+}
+ul li{
+    list-style: none;
+}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, table, img{
+    padding-bottom: 0px;
+    margin: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+.info{
+    position: relative;
+}
+.icon{
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+    display: inline-block;
+    background-image: url(../static/img/icon.png);
+    background-repeat: no-repeat;
+}
+.iconbounce:hover.icon:hover{
+    -webkit-animation:rotateImg 0.5s ease-out 2 normal;
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+}
+@keyframes rotateImg {
+  0% {transform : rotate(0deg);}
+  50% {transform : rotate(-20deg);}
+  75% {transform : rotate(20deg);}
+  100% {transform : rotate(0deg);}
+}
+
+.h60{height: 60px;}
+.h50{height: 50px;}
+.h10{height: 10px;}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+h1, h2, h3, h4, h5, h6{
+    font-size: 100%;
+}
+.indexblock .ibbar h3 a{
+    color: #ab0828;
+    font-size: 26px;
+    font-weight: 700;
+}
+/* 倾斜 */
+.info .bq{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 51px;
+    height: 51px;
+    background: url(../static/img/bq.png);
+    overflow: hidden;
+    z-index: 1000;
+}
+.info .bq span{
+    display: inline-block;
+    width: 51px;
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+    font-weight: normal !important;
+    color: #fff;
+    transform: rotate(-45deg);
+}
+/* 放大效果 */
+.indexblock .info .img img{
+    max-width: 295px;
+    height: 190px;
+    width: 190px;
+    cursor: pointer;  
+    transition: all 0.6s;
+}
+.indexblock .info:hover img{  
+    transform:scale(1.02); 
+}
+.indexblock .info .img{
+    height: 190px;
+    text-align: center;
+}
+.indexblock .ib201 .info h5{
+    font-size: 26px;
+    color: #ab0828;
+    margin-top: 65px;
+    text-align: center;
+}
+.indexblock .ib201 .info p{
+    height: 30px;
+    line-height: 30px;
+    margin: 45px 80px;
+    border: 1px solid #7d0022;
+    font-size: 18px;
+    color: #ab0828;
+    text-align: center;
+}
+.indexblock .ib202 .info .img img{
+    overflow: hidden;
+    /* width: 278px;
+    height: 300px; */
+    
+}
+.indexblock .ib201{
+    overflow: hidden;
+}
+.clearfix:before, .wrap:before, .clearfix:after, .wrap:after{
+    content:'';
+    display:table;
+}
