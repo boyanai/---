@@ -1,6 +1,6 @@
 .footer{
     background-color: #F7F7F7;
-    height: 600px;
+    height: 760px;
 }
 .footer .fservice{
     height: 85px;
@@ -181,6 +181,7 @@
     overflow: hidden;
     background-image: url(../static/img/copyright.png);
     background-repeat: no-repeat;  
+    float: none;
 }
 .fcopyright ul li.img1 a{
     background-position: 0 0;
