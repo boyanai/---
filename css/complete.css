@@ -44,8 +44,13 @@ div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, 
   100% {transform : rotate(0deg);}
 }
 
+.h80{height: 80px;}
+.h70{height: 70px;}
 .h60{height: 60px;}
 .h50{height: 50px;}
+.h40{height: 40px;}
+.h30{height: 30px;}
+.h20{height: 20px;}
 .h10{height: 10px;}
 .left{
     float: left;
@@ -81,6 +86,20 @@ h1, h2, h3, h4, h5, h6{
     font-weight: normal !important;
     color: #fff;
     transform: rotate(-45deg);
+}
+/* 图标动的 */
+a:hover>i{
+    -webkit-animation:rotateImg 0.5s ease-out 2 normal;
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+}
+
+@keyframes rotateImg {
+  0% {transform : rotate(0deg);}
+  50% {transform : rotate(-20deg);}
+  75% {transform : rotate(20deg);}
+  100% {transform : rotate(0deg);}
 }
 /* 放大效果 */
 .indexblock .info .img img{

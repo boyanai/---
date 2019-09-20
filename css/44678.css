@@ -151,14 +151,177 @@
     display: inline-block;
     font-size: 14px;
     color: #333;
+    margin-top: 5px;
 }
 .shop-price-block .left .y{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     color:#e70000;
 }
 .shop-price-block .left .price{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     color: #e70000;
 }
+.wl690 .shop-sellinfo{
+    height: 50px;
+    line-height: 50px;
+    border-bottom:1px dashed #dcdcdc;
+}
+.wl690 .shop-sellinfo ul li{
+    height: 50px;
+    line-height: 50px;
+    margin-right: 80px;
+    float: left;
+    font-size: 14px;
+    color: #333333;
+}
+.wl690 .shop-sellinfo ul li span{
+    color: #e70000;
+    margin-left: 5px;
+}
+.shop-label{
+    height: 65px;
+    line-height: 65px;
+    border-bottom: 1px dashed #dcdcdc;
+}
+.shop-label ul li{
+    height: 65px;
+    line-height: 65px;
+    margin-right: 10px;
+    float: left;
+    font-size: 14px;
+    color: #333333;
+}
+.shop-label ul li:last-child a{
+    border: none;
+    color: #0736e3;
+}
+.shop-label ul li a{
+    height: 24px;
+    line-height: 24px;
+    display: inline-block;
+    padding: 0 8px;
+    border:1px solid #d2d2d2;
+    border-radius: 3px;
+    color: #777;
+}
+.shop-label ul li:not(:last-child) a:hover{
+    color: #e70000;
+    border: 1px solid  #e70000;
+}
+.shop-num{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.shop-num ul .shu{
+    width: 80px;
+    line-height: 35px;
+    font-size: 16px;
+    color: #333;
+    float: left;
+}
+.shop-num ul li:not(:first-child){
+    height: 35px;
+    line-height: 35px;
+    margin-right:2px;
+    color: #333;
+    background:#f6f6f6;
+    float: left;
+}
+.shop-num ul li a{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    background: #e1e1e1;
+}
+.shop-num ul li input{
+    width: 45px;
+    height: 33px;
+    line-height: 33px;
+    outline: none;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #e1e1e1;
+}
+.shop-but{
+    margin-top: 30px;
+}
+.shop-but .buy, .shop-but .cart{
+    width: 198px;
+    height: 48px;
+    line-height: 48px;
+    border: 1px solid #ff2f2f;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #ff2f2f;
+    background-color:#fff;
+    text-align: center;
+    display: inline-block;
+    margin-right: 15px;
+}
+.shop-but .buy:hover, .shop-but .cart:hover{
+    background-color: #e01a1ac2;
+    color: #fff;
+}
+.shop-but .cartBuy{
+    border: 1px solid #ff2f2f;
+    color: #fff;
+    background-color: #ff2f2f;
+}
+.shop-but .bdsharebuttonbox{
+    display: inline-table;
+}
+.shop-but a:hover{
+    color: #e70000;
+}
+.icon-share{
+    background-position:-168px -28px;
+}
+.icon-favorite2{
+    background-position:-196px -28px;
+}
+.shop-but .favorite{
+    margin-left: 20px;
+}
+.shop-service{
+    margin-top:36px;
+    height: 50px;
+    border-top:1px solid #eaeaea;
+}
+.shop-service .clearfix{
+    margin-top: 25px;
+    font-size: 14px;
+    color: #777;
+}
+.shop-service ul li:first-child{
+    width: 80xp;
+    float: left;
+}
+.shop-service ul li {
+    margin: 0 25px;
+    float: left;
+}
+.shop-service ul li i{
+    margin-top: -5px;
+}
+.icon-fs1{
+    background-position: 0 -56px;
+}
+.icon-fs6{
+    background-position: -140px -56px;
+}
+.icon-fs7{
+    background-position: -168px -56px;
+}
+.fullimg p{
+    margin:5px 0;
+}
+
+
+
