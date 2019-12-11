@@ -43,7 +43,6 @@ div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, 
   75% {transform : rotate(20deg);}
   100% {transform : rotate(0deg);}
 }
-
 .h80{height: 80px;}
 .h70{height: 70px;}
 .h60{height: 60px;}
@@ -94,7 +93,6 @@ a:hover>i{
     height: 28px;
     vertical-align: middle;
 }
-
 @keyframes rotateImg {
   0% {transform : rotate(0deg);}
   50% {transform : rotate(-20deg);}
@@ -133,9 +131,6 @@ a:hover>i{
 }
 .indexblock .ib202 .info .img img{
     overflow: hidden;
-    /* width: 278px;
-    height: 300px; */
-    
 }
 .indexblock .ib201{
     overflow: hidden;
