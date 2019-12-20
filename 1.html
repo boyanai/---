@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        var now = new Date();
+        now.setDate = (now.getDate() + 2);
+        var shi = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 0, 0, 0);
+        function timer() {
+            var ts = ts_end - (new Date);
+            var dd = parseInt(ts / 1000 / 60 / 60 / 24, 10);
+            var hh = parseInt(dd / 1000 / 60 / 60 % 24, 10);
+            var mm = parseInt(hh / 1000 / 60 % 60, 10);
+            var ss = parseInt(mm / 1000 % 60, 10);
+            dd = checkTime(dd);
+            mm = checkTime(mm);
+            ss = checkTime(ss);
+
+            $(`.qgsj.hour em`).html(hh);
+            $(`.qgsj.min em`).html(mm);
+            $(`.qgsj.second em`).html(ss);
+
+        }
+        function checkTime(i) {
+            return i < 10 ? "0" + i : i;
+        }
+
+
+        setInterval("timer(),1000");
+
+
+
+    </script>
+</body>
+
+</html>

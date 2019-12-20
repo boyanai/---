@@ -1,0 +1,98 @@
+.mzyh-pic{
+    width: 100%;
+    height: 470px;
+    background-image: url(../static/mzyh.png);
+    background-position:center;
+}
+.mzyh-bar{
+    padding: 50px 0;
+    text-align: center;
+}
+.mzyh-bar a{
+    margin: 20px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+    color: #333;
+    display: inline-block;
+    background-image:url(/static/img/flower.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mzyh-bar a em{
+    padding: 45px;
+    width: 50px;
+    height: 77px;
+    line-height: 80px;
+    border-bottom: 3px solid #a5ca47;
+}
+.mzyh-bar p{
+    magin: 50px;
+    line-height: 80px;
+    font-size: 16px;
+    color: #999;
+}
+
+.mzyh-box-con{
+    width: 1250px;
+    overflow: hidden;
+    margin: auto;
+}
+.mzyh-box-con ul li{
+    margin-right: 50px;
+    margin-buttom: 70px;
+    float: left;
+    overflow: hidden;
+}
+.mzyh-info {
+    width: 575px;
+    height: 695px;
+}
+.mzyh-info .img{
+    width: 575px;
+    height: 575px;
+    overflow: hidden;
+}
+.mzyh-info .img img{
+    width: 575px;
+    height: 575px;
+}
+
+
+
+/* 过渡放大 */
+.imghover .img img{
+    transform: scale(1);
+    transform: transform 1s linear .1s;
+    -moz-transition:transform 1s linear .1s;
+    -webkit-transition:transform 1s linear .1s;
+    -o-transition:transform 1s linear .1s;
+    -ms-transition:transform 1s linear .1s;
+}
+/* transition:all 0.1s; */
+.imghover .img img:hover{
+    transform:scale(1.02); 
+}
+.mzyh-info h5{
+    height: 69px;
+    line-height: 70px;
+    border-bottom: 1px solid #e9e9e9;
+}
+.mzyh-info h5 a{
+    font-size: 24px;
+    color: #666;
+}
+.mzyh-info h5 a:hover{
+    color: #ff2f2f;
+}
+.mzyh-info h5 .price{
+    margin-left: 25px;
+    font-size: 22px;
+    color: #ff2f2f;
+}
+.mzyh-info p{
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #999;
+}
